@@ -1,0 +1,27 @@
+.notification {
+    background-color: #1ead4257;
+    padding: 5px;
+    border-radius: 20%;
+    font-size: 1.5em;
+}
+
+.update {
+    color: rgb(127, 29, 238);
+    border: 2px solid rgb(7, 19, 124);
+}
+
+.error {
+    color: red;
+    background: lightgrey;
+    font-size: 20px;
+    border-style: solid;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.person {
+    color: grey;
+    padding-top: 3px;
+    font-size: 15px;
+}
