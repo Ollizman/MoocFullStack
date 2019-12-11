@@ -13,14 +13,13 @@ const App = props => {
   anecdotes.map(event => votesit.push(event.votes));
 
   const voteClickHandler = () => {
-      console.log('toimii')
+    console.log("toimii");
     anecdotes[selected].votes++;
     for (let i = 0; i < 6; i++) {
-      if(anecdotes[i].votes > mostVotes) {
+      if (anecdotes[i].votes > mostVotes) {
         setMostVotes(anecdotes[i].votes);
-        setTopAne(i)
-      } 
-      
+        setTopAne(i);
+      }
     }
   };
 
