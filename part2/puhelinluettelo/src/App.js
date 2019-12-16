@@ -134,7 +134,7 @@ const App = () => {
   // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test
   const filterCallback = person => RegExp(searchWord, "i").test(person.name);
   const personsToShow = persons.filter(filterCallback);
-
+  console.log('rendering.. persons: ', persons)
   return (
     <div>
       <h2>Puhelinluettelo</h2>
